@@ -106,7 +106,6 @@ Watch the complete demo of the Schedule Planner application:
 
 [📺 Schedule Planner Demo Video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
 
-*Note: Replace `YOUR_VIDEO_ID_HERE` with your actual YouTube video ID*
 
 ## 🔧 Configuration
 
@@ -117,14 +116,6 @@ $host = 'localhost';
 $username = 'root';
 $password = '';
 $database = 'schedule_planner';
-```
-
-### Email Configuration
-For password reset emails, configure PHP mail settings in your `php.ini`:
-```ini
-SMTP = smtp.example.com
-smtp_port = 587
-sendmail_from = noreply@scheduleplanner.com
 ```
 
 ## 🌐 API Endpoints
@@ -145,31 +136,6 @@ The application provides RESTful API endpoints in the `api/` directory:
 - **Session Security**: Secure session management with timeout
 - **CSRF Protection**: Token-based request validation
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Database Connection Error**
-```bash
-# Check if MySQL is running
-# Verify database credentials in config/database.php
-# Ensure the database exists
-```
-
-**404 Not Found Error**
-```bash
-# Verify Apache is running
-# Check if files are in correct directory
-# Ensure .htaccess is properly configured
-```
-
-**Email Not Sending**
-```bash
-# Check PHP mail configuration
-# Verify SMTP settings in php.ini
-# Check spam folder for test emails
-```
-
 ## 📱 Browser Compatibility
 
 The application is tested and compatible with:
@@ -177,14 +143,6 @@ The application is tested and compatible with:
 - Firefox 88+
 - Safari 14+
 - Edge 90+
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📝 License
 
@@ -201,5 +159,3 @@ For support, please open an issue on the GitHub repository or contact the projec
 - [Bootstrap](https://getbootstrap.com/) for responsive design components
 
 ---
-
-**Built with ❤️ using PHP, MySQL, and modern web technologies**
