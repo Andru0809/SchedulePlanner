@@ -104,7 +104,7 @@ scheduleplanner/
 
 Watch the complete demo of the Schedule Planner application:
 
-[📺 Schedule Planner Demo Video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+https://youtu.be/Iw1MEKmhT3s
 
 
 ## 🔧 Configuration
